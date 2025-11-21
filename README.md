@@ -20,9 +20,9 @@
 
 2.  **Запуск:**
     Находясь в корне проекта (рядом с файлом docker-compose.yaml), выполните:
-
+   ```bash
     docker-compose up --build
-
+```
 3.  **Доступ к API:**
     После успешного старта контейнеров документация Swagger будет доступна по адресу:
     [http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html)
